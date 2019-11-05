@@ -1,0 +1,13 @@
+{
+	"name": "Out of Stock Manager",
+	"handle": "OutOfStockManager",
+	"info": "Let your customers know when out of stock products are available again",
+	"settings": true,
+	"docs": "https://github.com/sellfino/app-out-of-stock-manager",
+	"author": {
+		"name": "Lucas • Sellfino",
+		"url": "https://www.sellfino.com"
+	},
+  "version": "1.0.0",
+  "queue": true
+}
