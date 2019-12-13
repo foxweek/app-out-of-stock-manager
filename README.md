@@ -5,6 +5,11 @@
 ## Out of Stock Manager
 Let your customers know when out of stock products are available again.
 
+## Demo & Screenshots
+Check how this app works in the live store: [DEMO](https://sellfino.myshopify.com/products/aviator-glasses-outofstock)
+
+<a href="https://sellfino.com/images/screens/out/out-1.jpg" target="_blank" rel="noopener noreferrer"><img width="30%" src="https://sellfino.com/images/screens/out/out-1.jpg"></a> <a href="https://sellfino.com/images/screens/out/out-2.jpg" target="_blank" rel="noopener noreferrer"><img width="30%" src="https://sellfino.com/images/screens/out/out-2.jpg"></a> <a href="https://sellfino.com/images/screens/out/out-3.jpg" target="_blank" rel="noopener noreferrer"><img width="30%" src="https://sellfino.com/images/screens/out/out-3.jpg"></a>
+
 ## Installation
 :exclamation: Make sure that you provided SMTP settings for the Sellfino platform correctly. Without that, no email will be sent.
 
