@@ -78,6 +78,24 @@
               </table>
             </div>
           </div>
+          <div class="card-footer py-4 nobg">
+            <nav>
+              <ul class="pagination justify-content-center mb-0">
+                <li class="page-item" :class="{ disabled: page.prev == null || loading }">
+                  <a class="page-link" href="#" @click.prevent="prevPage">
+                    <i class="fas fa-angle-left"></i>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                </li>
+                <li class="page-item" :class="{ disabled: page.next == null || loading }">
+                  <a class="page-link" href="#" @click.prevent="nextPage">
+                    <i class="fas fa-angle-right"></i>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
     </div>
@@ -127,6 +145,14 @@ module.exports = {
         title: el.product.title + ' ' + (el.variant.title ? ' - ' + el.variant.title : ''),
         emails: el.emails
       }
+    },
+    nextPage: function() {
+      this.page++
+      this.load()
+    },
+    prevPage: function() {
+      this.page--
+      this.load()
     }
   },
   mounted: function() {
